@@ -1,0 +1,96 @@
+.caption-center{  
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin-left: 47%;
+    top: 43%;
+    font-size: 20px;
+
+}
+
+.btn-primary  {
+    
+    background-color: #28a745; /* color de fondo verde para el botón de llamada a la acción */
+    border-color: #28a745;
+    z-index: 1;
+  }
+
+.card-control{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.oradores{
+    text-align: center;
+}
+
+
+.alert-primary {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(226, 191, 116);
+    padding: 3px 8px;
+  }
+
+.alert-secondary {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(62, 165, 165);
+    color: white;
+    padding: 3px 8px;
+    
+  }
+
+  .negocios {
+    background-color: gray;
+    color: white;
+}
+
+.startups {
+    background-color: red;
+    color: white;
+}
+
+.texto{
+    color: white;
+}
+
+.btn-secondary{
+    border-color: white;
+}
+.container{
+    text-align: center;
+    
+}
+
+.btn-succes{
+    background-color: #9bcf6a;
+    color: white;
+}
+
+.bg-footer{
+    
+    background-color: rgb(36, 74, 92) ;
+ 
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container-fluid {
+    min-height: 100%;
+    position: relative;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+    color: #fff;
+  }
+
