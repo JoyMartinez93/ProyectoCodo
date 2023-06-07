@@ -1,5 +1,5 @@
 <script>
   document.getElementById('comprar-tickets').addEventListener('click', function() {
-    window.location.href = 'https://github.com/JoyMartinez93/ProyectoCodo.git';
+    window.location.href = 'C:\Users\Usuario\todo\OneDrive\Imágenes\ProyectoCodo';
   });
 </script>
