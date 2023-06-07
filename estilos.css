@@ -98,3 +98,46 @@ html, body {
     color: #fff;
   }
 
+/*nuevos estilos*/
+
+.card-descuentos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.card{
+    margin-bottom: 10px;
+}
+
+.card-header-blue{
+    background-color: blue;
+    color: white;
+}
+.card-text-2{
+    font-size: 35px;
+}
+
+.card-header-cyan{
+    background-color: rgb(21, 198, 211);
+    color: white;
+}
+.card-border-cyan{
+    border: 1px solid rgb(21, 198, 211); 
+}
+.card-header{
+    font-size: 25px;
+}
+
+.card-header-orange{
+    background-color: orange;
+    color: white;
+    
+
+}
+.card-border-orange{
+    border: 1px solid orange;
+}
