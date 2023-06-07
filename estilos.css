@@ -22,7 +22,7 @@
     margin: 60px;
 }
 
-.card-body:hover {
+.card:hover {
     transition: 1.3s ease;
     transform:scale(1.02);
 }
