@@ -22,6 +22,10 @@
     margin: 60px;
 }
 
+.card-body:hover {
+    transition: 1.3s ease;
+    transform:scale(1.02);
+}
 .oradores{
     text-align: center;
 }
