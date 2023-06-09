@@ -170,3 +170,19 @@ html, body {
     text-align: center;
 
   }
+
+  @media screen and (max-width:480px;){
+        .navbar , .carouselExampleIndicators, .card , .container ,.container-fluid , .card-descuentos , .row , .card-body .card-text , .card-text-2{
+            width: auto;
+        }
+        nav{
+            position: static;
+        }
+        .navbar{
+            position: static;
+        }
+        p{
+            text-align: center;
+        }
+     
+  }
