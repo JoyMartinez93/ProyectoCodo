@@ -49,14 +49,14 @@ resume.addEventListener("click", (e) => {
     !emptyInput(email) &&
     !emptyInput(cantidad)
   )
-  alert("Gracias por su compra"); 
+  alert("Gracias por su compra ☺"); 
 });
 
 function seleccionarCategoria(categoria) {
   // Obtener elementos del formulario
   const selectElement = document.getElementById('select');
   
-  // Asignar la categoría seleccionada al formulario
+  // Asignar la categoría seleccionada al formulario si le hace click a la tarjetas que dicen estudiante,trainee o junior
   if (categoria === 'estudiante') {
     selectElement.value = '1';
   } else if (categoria === 'trainee') {
@@ -68,3 +68,14 @@ function seleccionarCategoria(categoria) {
   // Llamar a la función 'total' para actualizar el total a pagar
   total(cantidad.value, selectElement.value, divTotal);
 }
+
+const form = document.querySelector('form');
+
+form.addEventListener('reset', () => {
+  // Restablecer todos los campos del formulario
+  form.reset();
+  
+  // Restablecer el campo "Total a pagar"
+  const divTotal = document.querySelector('.total');
+  divTotal.textContent = 'Total a pagar: $';
+});
